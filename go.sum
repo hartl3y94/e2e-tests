@@ -1,3 +1,5 @@
+github.com/dsp-testing/inner-source-private-go v1.0.0 h1:DuwktxlMVLAz6TD3JIISUOAsD0yig1YAEPKg9brmlD0=
+github.com/dsp-testing/inner-source-private-go v1.0.0/go.mod h1:sZbOPpvxQzFWlGfAcV9VHMb6sNxWPEIfb9KGvvL89HA=
 github.com/fatih/Color v1.7.0/go.mod h1:sh3dZUZxJqMHuwt2YwWXqUUIe6N9gJlzZZH0eFduGkw=
 github.com/mattn/go-colorable v0.0.9/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
 github.com/mattn/go-isatty v0.0.4/go.mod h1:M+lRXTBqGeGNdLjl/ufCoiOlB5xdOkqRJdNxMWT7Zi4=
