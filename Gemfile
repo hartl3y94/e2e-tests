@@ -9,5 +9,5 @@ gemspec
 gem "rails", "4.0.0"
 gem "factory_girl", "4.7.0"
 gem "rubocop", "0.76.0"
-gem "rspec", :github => "rspec/rspec", tag: "v3.7.0"
+gem "rspec", "3.7.0"
 gem "excon", "0.70.0"

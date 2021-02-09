@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/rspec/rspec
-  revision: c2a494b5e26e23521f4f332525cea85e568963ec
-  tag: v3.7.0
-  specs:
-    rspec (3.7.0)
-      rspec-core (~> 3.7.0)
-      rspec-expectations (~> 3.7.0)
-      rspec-mocks (~> 3.7.0)
-
 PATH
   remote: .
   specs:
@@ -83,6 +73,10 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (3.0.0)
     rake (13.0.1)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
     rspec-core (3.7.1)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
@@ -126,7 +120,7 @@ DEPENDENCIES
   excon (= 0.70.0)
   factory_girl (= 4.7.0)
   rails (= 4.0.0)
-  rspec!
+  rspec (= 3.7.0)
   rubocop (= 0.76.0)
 
 BUNDLED WITH
