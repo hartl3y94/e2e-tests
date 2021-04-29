@@ -6,7 +6,7 @@ updates:
       interval: "monthly"
     ignore:
      - dependency-name: "rsc.io/quote"
-       versions: [ ">= 2.0.0" ]
+       versions: [ ">= 1.9.0" ]
   - package-ecosystem: "cargo"
     directory: "/"
     schedule:
