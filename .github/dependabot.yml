@@ -17,4 +17,4 @@ updates:
       interval: "monthly"
     ignore:
      - dependency-name: "*"
-       update-types: ["version-updates:semver-patch"]
+       update-types: ["version-update:semver-minor"]
