@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v2.1.0
+        uses: actions/checkout@01aecccf739ca6ff86c0539fbc67a7a5007bbc81
