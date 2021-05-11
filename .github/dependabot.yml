@@ -18,4 +18,7 @@ updates:
     ignore:
      - dependency-name: "*"
        update-types: ["version-update:semver-minor"]
-
+  - package-ecosystem: "github_actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
