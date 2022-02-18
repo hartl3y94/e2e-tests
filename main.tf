@@ -13,7 +13,7 @@ resource "aws_cloudfront_origin_access_identity" "default" {
 }
 
 module "logs" {
-  source                   = "github.com/cloudposse/terraform-log-storage.git?ref=tags/0.2.2"
+  source                   = "github.com/cloudposse/terraform-aws-s3-log-storage.git?ref=tags/0.2.2"
   namespace                = "${var.namespace}"
   stage                    = "${var.stage}"
   name                     = "${var.name}"
@@ -27,7 +27,7 @@ module "logs" {
 }
 
 module "distribution_label" {
-  source     = "bitbucket.org/cloudposse/terraform-null-label.git"
+  source     = "github.com/cloudposse/terraform-null-label.git"
   namespace  = "${var.namespace}"
   stage      = "${var.stage}"
   name       = "${var.name}"
