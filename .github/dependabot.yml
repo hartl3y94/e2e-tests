@@ -48,3 +48,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "hex"
+    directory: "/"
+    schedule:
+      interval: "monthly"
