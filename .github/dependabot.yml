@@ -61,7 +61,7 @@ updates:
     schedule:
       interval: "monthly
   - package-ecosystem: "pip-compile"
-    directory: "/"
+    directory: "/pip-compile/"
     schedule:
       interval: "monthly
   - package-ecosystem: "poetry"
