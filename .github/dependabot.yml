@@ -56,15 +56,15 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-  - package-ecosystem: "pipenv"
-    directory: "/"
+  - package-ecosystem: "pip"
+    directory: "/pipenv/"
     schedule:
       interval: "monthly"
-  - package-ecosystem: "pip-compile"
+  - package-ecosystem: "pip"
     directory: "/pip-compile/"
     schedule:
       interval: "monthly"
-  - package-ecosystem: "poetry"
-    directory: "/"
+  - package-ecosystem: "pip"
+    directory: "/poetry/"
     schedule:
       interval: "monthly"
