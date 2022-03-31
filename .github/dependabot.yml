@@ -53,7 +53,7 @@ updates:
     schedule:
       interval: "monthly"
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/pip/"
     schedule:
       interval: "monthly"
   - package-ecosystem: "pip"
