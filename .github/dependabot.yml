@@ -69,6 +69,14 @@ updates:
     schedule:
       interval: "monthly"
   - package-ecosystem: "composer"
-    directory: /
+    directory: "/"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "elm"
+    directory: "/"
     schedule:
       interval: "monthly"
