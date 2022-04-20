@@ -30,6 +30,7 @@ updates:
        update-types: ["version-update:semver-minor"]
   - package-ecosystem: "terraform"
     directory: "/"
+    open-pull-requests-limit: 10
     schedule:
       interval: "monthly"
   - package-ecosystem: "docker"
@@ -73,6 +74,7 @@ updates:
     schedule:
       interval: "monthly"
   - package-ecosystem: "gradle"
+    open-pull-requests-limit: 10
     directory: "/"
     schedule:
       interval: "monthly"
