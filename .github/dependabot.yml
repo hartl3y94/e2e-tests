@@ -68,3 +68,7 @@ updates:
     directory: "/poetry/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "composer"
+    directory: /
+    schedule:
+      interval: "monthly"
