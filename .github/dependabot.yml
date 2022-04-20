@@ -80,3 +80,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "nuget"
+    directory: "/nuget/"
+    schedule:
+      interval: "monthly"
