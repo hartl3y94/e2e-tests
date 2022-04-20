@@ -85,6 +85,6 @@ updates:
     schedule:
       interval: "monthly"
   - package-ecosystem: "gitsubmodule"
-    directory: "/dependabot-test/"
+    directory: "/"
     schedule:
       interval: "monthly"
