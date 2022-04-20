@@ -84,3 +84,7 @@ updates:
     directory: "/nuget/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/dependabot-test/"
+    schedule:
+      interval: "monthly"
