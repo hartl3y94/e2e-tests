@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
     ignore:
      - dependency-name: "rsc.io/quote"
        versions: [ ">= 1.9.0" ]
