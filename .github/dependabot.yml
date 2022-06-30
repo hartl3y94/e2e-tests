@@ -31,7 +31,7 @@ updates:
     directory: "/"
     open-pull-requests-limit: 10
     schedule:
-      interval: "monthly"
+      interval: "weekly"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
