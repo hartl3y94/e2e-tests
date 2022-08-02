@@ -1,3 +1,3 @@
 # e2e-tests
 
-Dependabot Updates Automated E2E testing
+Dependabot Updates automated E2E testing
