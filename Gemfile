@@ -2,9 +2,8 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
 gemspec
 
 gem "rubocop", "0.76.0"
 gem "toml-rb", "2.2.0"
+gem 'rack', git: 'git@github.com:rack/rack.git', tag: '2.1.4'

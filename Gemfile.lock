@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:rack/rack.git
+  revision: f3cf79d6460dc592767941806d1b2b7008f73e01
+  tag: 2.1.4
+  specs:
+    rack (2.1.4)
+
 PATH
   remote: .
   specs:
@@ -32,6 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   dependabot-all-updates-test-staging!
+  rack!
   rubocop (= 0.76.0)
   toml-rb (= 2.2.0)
 
