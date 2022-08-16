@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "~3.10"
 toml = "0.10.0"
 PyYAML = "^6.0"
+numpy = "1.23.0"
 
 [tool.poetry.dev-dependencies]
 

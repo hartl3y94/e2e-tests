@@ -2,4 +2,4 @@ Django>=3.1,<4.0
 requests
 pyyaml
 pytest
-
+numpy==1.23.0
