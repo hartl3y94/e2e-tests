@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.version     = '0.0.0'
   s.description = "Dependabot test ruby"
   s.summary     = "dependabot test"
-  s.authors     = ["Peter Wagner"]
-  s.email       = 'thepwagner@github.com'
+  s.authors     = ["No Reply"]
+  s.email       = 'noreply@github.com'
   s.license     = 'MIT'
   s.add_runtime_dependency 'netaddr', '= 2.0.1'
 end
